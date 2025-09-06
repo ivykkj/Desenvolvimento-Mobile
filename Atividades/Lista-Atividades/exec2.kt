@@ -5,6 +5,6 @@ Qual é o seu nome? João da Silva
 Olá João da Silva, é um prazer te conhecer!*/
 fun main() {
     println("Qual é o seu nome?")
-    val nome = readln()
+    var nome = readln()
     println("Olá $nome, é um prazer te conhecer!")
 }
